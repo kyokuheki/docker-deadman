@@ -1,4 +1,4 @@
-FROM library/python:2-alpine
+FROM library/python:3-alpine
 LABEL maintainer Kenzo Okuda <kyokuheki@gmail.com>
 ENV LANG="en_US.UTF-8"
 
