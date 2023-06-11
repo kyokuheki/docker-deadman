@@ -41,6 +41,7 @@ jobs:
             type=semver,pattern={{major}}.{{minor}}-alpine
             type=semver,pattern={{major}}-alpine
             type=semver,pattern=alpine
+            type=semver,pattern=latest
       -
         name: Set up QEMU
         uses: docker/setup-qemu-action@v1
